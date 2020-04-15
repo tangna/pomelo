@@ -12,10 +12,12 @@
   "bugs": {
     "url": "https://github.com/NetEase/pomelo/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/NetEase/pomelo#license"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/NetEase/pomelo#license"
+    }
+  ],
   "keywords": [
     "pomelo",
     "framework",
@@ -47,13 +49,13 @@
     "pomelo": "./bin/pomelo"
   },
   "devDependencies": {
-    "should": "3.3.1",
-    "mocha": ">=0.0.1",
-    "muk": ">=0.0.1",
+    "blanket": "~1.1.6",
     "grunt": "~0.4.2",
-    "grunt-mocha-test": "0.8.x",
     "grunt-contrib-clean": "0.5.x",
     "grunt-contrib-jshint": "~0.8.0",
-    "blanket": "~1.1.6"
+    "grunt-mocha-test": "0.8.x",
+    "mocha": "^7.1.1",
+    "muk": ">=0.0.1",
+    "should": "3.3.1"
   }
 }
